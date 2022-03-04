@@ -11,6 +11,7 @@
     "semantic-release": "semantic-release",
     "commit": "cz"
   },
+  "files": ["dist/"],
   "homepage": "https://github.com/mc-ireiser/test_semantic-release#readme",
   "repository": {
     "type": "git",

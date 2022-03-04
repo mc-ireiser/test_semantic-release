@@ -23,7 +23,8 @@
     "url": "https://github.com/mc-ireiser/test_semantic-release/issues"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
   },
   "release": {
     "branches": [

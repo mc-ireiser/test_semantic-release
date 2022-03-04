@@ -6,6 +6,7 @@
   "author": "Jesus Rodriguez",
   "license": "MIT",
   "scripts": {
+    "build": "vite build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release",
     "commit": "cz"
@@ -30,7 +31,8 @@
   "devDependencies": {
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "semantic-release": "^19.0.2"
+    "semantic-release": "^19.0.2",
+    "vite": "^2.8.6"
   },
   "config": {
     "commitizen": {

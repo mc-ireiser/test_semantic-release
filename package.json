@@ -1,0 +1,29 @@
+{
+  "name": "test_semantic-release",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mc-ireiser/test_semantic-release.git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mc-ireiser/test_semantic-release/issues"
+  },
+  "homepage": "https://github.com/mc-ireiser/test_semantic-release#readme",
+  "devDependencies": {
+    "semantic-release": "^19.0.2"
+  }
+}

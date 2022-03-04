@@ -3,26 +3,29 @@
   "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
+  "author": "Jesus Rodriguez",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release"
   },
+  "homepage": "https://github.com/mc-ireiser/test_semantic-release#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/mc-ireiser/test_semantic-release.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mc-ireiser/test_semantic-release/issues"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
   },
   "release": {
     "branches": [
       "main"
     ]
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mc-ireiser/test_semantic-release/issues"
-  },
-  "homepage": "https://github.com/mc-ireiser/test_semantic-release#readme",
   "devDependencies": {
     "semantic-release": "^19.0.2"
   }
